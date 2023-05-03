@@ -15,18 +15,27 @@ body {
 }
 
 .card-1 {
-    border-radius: 5px;
+    border-bottom-hight: 20px;
+    border-radius: 10px;
     background-color: rgba(239, 167, 103, 0.51);
+    padding-bottom: 1px;
+    padding-left: 10px;
 }
 
 .card-2 {
-    border-radius: 5px;
-    background-color: rgba(100, 104, 227, 0.5);
+    border-radius: 10px;
+    background-color: rgba(74, 77, 165, 0.5);
+}
+
+.card-2-head {
+    padding-left: 10px;
 }
 
 .card-3 {
-    border-radius: 5px;
-    background-color: rgba(76, 244, 146, 0.5);
+    border-radius: 10px;
+    background-color: rgba(64, 175, 42, 0.5);
+    padding-bottom: 10px;
+    padding-left: 10px;
 }
 
 /* тут табличка */
