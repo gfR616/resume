@@ -11,10 +11,23 @@ body {
 .info-text p {
     font-style: italic;
     font-weight: 600;
-    color: #86898f;
+    color: #595a5a;
 }
 
+.card-1 {
+    border-radius: 5px;
+    background-color: rgba(239, 167, 103, 0.51);
+}
 
+.card-2 {
+    border-radius: 5px;
+    background-color: rgba(100, 104, 227, 0.5);
+}
+
+.card-3 {
+    border-radius: 5px;
+    background-color: rgba(76, 244, 146, 0.5);
+}
 
 /* тут табличка */
 .table {
@@ -27,7 +40,7 @@ body {
 	text-align: left;
 	border: none;
 	padding: 10px 15px;
-	background: #d8d8d8;
+	background: #8780ec;
 	font-size: 14px;
 }
 .table thead tr th:first-child {
