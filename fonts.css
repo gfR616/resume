@@ -6,18 +6,11 @@ body {
     font-weight: normal";
 }
 
-p {
+.info-text p {
     font-style: italic;
     font-weight: 600;
 }
 
-ul {
-    font-weight: 600;
-}
-
-a {
-    font-weight: 600;
-}
 
 /* тут табличка */
 .table {
