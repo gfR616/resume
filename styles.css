@@ -130,5 +130,14 @@ body {
 
 /* Ссылки */
 a {
-    color:
+    color: black;
+}
+
+a:hover {
+    color: orange;
+    font-size:;
+}
+
+a:visited {
+    color: rgb(3, 2, 1);
 }
