@@ -19,7 +19,6 @@ body {
 }
 
 .info {  
-    width:400;
     height: fit-content;
     box-shadow: 4px 4px 14px rgba(16, 14, 14, 0.623);
     border:rgba(132, 179, 197, 0.452) solid 6px;
