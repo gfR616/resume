@@ -112,3 +112,23 @@ body {
 .table tbody tr td:last-child {
 	border-radius: 0 8px 8px 0;
 }
+
+/* кнопки */
+.btn {
+    background: black;
+    padding: 15px 20px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: inherit;
+}   
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+/* Ссылки */
+a {
+    color:
+}
