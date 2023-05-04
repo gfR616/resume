@@ -45,8 +45,6 @@ body {
     padding: 5px 0px 10px 30px;
     margin-top: 10px;
     margin-bottom: 20px;
-    border-left: 5px #cc901f solid;
-    border-right: 5px #cc901f solid;
 }  
 
 .card-2 {
@@ -54,8 +52,6 @@ body {
     background-color: rgba(74, 77, 165, 0.5);
     margin-top: 10px;
     margin-bottom: 20px;
-    border-left: 5px  #1f2bcc solid;
-    border-right: 5px  #1f2bcc solid;
 }
 
 .card-2-head {
@@ -68,8 +64,6 @@ body {
     padding: 5px 0px 10px 30px;
     margin-top: 10px;
     margin-bottom: 20px;
-    border-left: 5px  #057e4c solid;
-    border-right: 5px #057e4c solid;
 }
 
 .contacts {
@@ -78,9 +72,6 @@ body {
     padding: 5px 0px 10px 20px;
     margin-top: 10px;
     margin-bottom: 20px;
-    border-left: 5px  #0f141e solid;
-    border-right: 5px  #0f141e solid;
-
 }
 
 /* тут табличка */
