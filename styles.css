@@ -205,3 +205,28 @@ a:hover {
 a:active {
     color:red;
 }
+
+@media(max-width:650px) {
+    .img-txt {
+        display: block;
+        width: 100%;
+        margin-bottom: 20px;
+        text-align: center;
+        margin: auto;
+    }
+    .img {
+        margin-left: 0px;
+    }
+    .img-txt .info-text {
+        margin: auto 
+    }
+    .form-row {
+        margin-bottom: 10px;
+        display:block;
+    }
+    .form-row .form-group {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
