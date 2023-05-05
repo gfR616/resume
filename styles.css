@@ -9,7 +9,7 @@ body {
     font-family: "Open Sans", Arial, sans-serif;
     font-size: 16px;
     font-weight: normal;
-    background-color: #ecf1f355;
+    background-color: #ecf1f39f;
     color: #0f141e;
 }
 
@@ -18,7 +18,7 @@ body {
     margin:auto;
 }
 
-.info {  
+.img {  
     height: fit-content;
     box-shadow: 4px 4px 14px rgba(16, 14, 14, 0.623);
     border:rgba(132, 179, 197, 0.452) solid 6px;
@@ -38,6 +38,17 @@ body {
     color: #595a5a;
     margin-top: 10px;
     margin-bottom: 15px;
+}
+
+.img-txt {
+    display: flex;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.img-txt .info-text {
+    margin-top: 30px;
+    margin-left: 30px;
 }
 
 .card-1 {
@@ -73,7 +84,7 @@ body {
 
 .contacts {
     border-radius: 10px;
-    background-color: rgba(41, 44, 40, 0.441);
+    background-color: rgba(215, 154, 219, 0.675);
     padding: 5px 0px 10px 20px;
     margin-top: 10px;
     margin-bottom: 20px;
@@ -81,6 +92,37 @@ body {
 
 .form h2 {
     text-align: center;
+}
+
+.form-group label {
+    display:block;
+    font-size: 14px;
+    color: black;
+}
+.form-group input, textarea {
+    width: 95%;
+    box-sizing: border-box;
+    border: none;
+    background: #efdeece6;
+    border-bottom: 1px solid #ccc;
+    padding: 15px 0 10px;
+    color: #0c0c0c;
+}
+
+.form-row {
+    margin-bottom: 10px;
+    display:flex;
+}
+
+.form-row .form-group{
+    /* display: inline-block; */
+    margin-right: 20px;
+    width: 50%;
+    /* box-sizing: border-box; */
+}
+
+.form-row .form-group: :last-child {
+    margin-right: 0;
 }
 
 /* тут табличка */
