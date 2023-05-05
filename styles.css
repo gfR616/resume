@@ -31,6 +31,10 @@ body {
     margin-bottom: 20px;
 }
 
+.img-txt img h1 p{
+display: block;
+}
+
 .info-text p {
     font-style: italic;
     font-weight: 600;
@@ -63,7 +67,11 @@ body {
     background-color: rgba(64, 175, 42, 0.5);
     padding: 5px 0px 10px 30px;
     margin-top: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 20px;  
+}
+
+.card-3 a {
+    border-bottom: 1px #9a9a9a solid;
 }
 
 .contacts {
