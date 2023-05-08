@@ -109,6 +109,10 @@ body {
     color: #0c0c0c;
 }
 
+.form-group textarea {
+    /* radius: 15% 15%; */
+}
+
 .form-row {
     margin-bottom: 10px;
     display:flex;
@@ -250,15 +254,19 @@ a:active {
         font-weight: bold;
         text-align: left;
         border: none;
-        padding: 0;
+        padding: 0 8px 0 8px;
         background: #8780ec;
         font-size: inherit;
     }
     .table tbody td {
         text-align: left;
         border: none;
-        padding: 0;
+        padding: 0 8px 0 8px;
         font-size: inherit;
         vertical-align: top;
+
+}
+* {
+    overflow-x: auto;
 }
 }
